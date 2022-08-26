@@ -1,27 +1,3 @@
-"""
-Authors: Mikhail M.Meskhi
-Data: 09/03/2021
-Title: Assignment 1 - Coding 1
-Comments: 
-
-
-Objectives of the coding assignment:
-------------------------------------
-(a)
-  1. Load the diabetes dataset.
-  2. Split the dataset into train and test sets.
-  3. Fit a linear regression model.
-  4. Report the coefficients, MSE, and R2 scores.
-  5. Plot your regression line.
-------------------------------------
-(b)
-  1. Implement three subset selection methods (forward, backward, random).
-  2. Apply the forward and backward methods and report the results (Fig 3.6 page 59).
-  3. Use multiple of 5s for the random method.
-  4. Report which method results in better performance and explain why.
-------------------------------------
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt2
