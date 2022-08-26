@@ -1,18 +1,4 @@
-"""
-Authors: Mikhail M.Meskhi
-Data: 09/03/2021
-Title: Assignment 1 - Coding 2
-Comments: 
 
-
-Objectives of the coding assignment:
-------------------------------------
-(a)
-  1. Load the provided dataset.
-  2. Implement the distance function.
-  3. Implement the neighbors function.
-------------------------------------
-"""
 
 from math import sqrt
 from csv import reader
@@ -50,10 +36,7 @@ def predict(datset, prediction_row, near_neighbors):
 	pass
 	
 def main():
-	#####################
-	# Place code here   #
-	# Comment the code  #
-	#####################
+
 	filename = 'assignment_1_knn_data.csv'
 	dataset = list()
 	with open(filename, 'r') as file:
